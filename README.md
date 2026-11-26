@@ -4,9 +4,9 @@ Projeto experimental inspirado no [`Marvisak/VIctory`](https://github.com/Marvis
 
 ## Estado e desempenho relatado
 
-Segundo informações fornecidas pelo responsável pelo projeto, o AlhoPoro está funcionando em **Windows 11 Pro for Workstations** e foi testado em um **Acer Aspire 3 com Intel Core i3 de 8ª geração e 8 GB de memória DDR4**. Nesse equipamento, o desempenho relatado é de **15 a 20 FPS**, com os gráficos ajustados para priorizar estabilidade.
+Segundo informações fornecidas pelo responsável pelo projeto, o AlhoPoro está funcionando em **Windows 11 Pro for Workstations** e foi testado em um **Acer Aspire 3 com Intel Core i3 de 8ª geração, 8 GB de memória DDR4 e Intel UHD Graphics 620**. Nesse equipamento, o desempenho relatado é de **15 a 20 FPS**, com os gráficos ajustados para priorizar estabilidade.
 
-> **Transparência:** esses números são relatos do responsável pelo projeto e não foram verificados de forma independente neste repositório. O resultado depende da GPU (integrada ou dedicada), resolução, configurações gráficas, drivers, temperatura e versão do jogo. A configuração completa do teste e evidências reproduzíveis ainda precisam ser documentadas. Não interprete esses valores como garantia de desempenho em outros equipamentos.
+> **Transparência:** esses números e especificações são relatos do responsável pelo projeto e não foram verificados de forma independente neste repositório. Os **4 GB de memória gráfica** informados para a Intel UHD Graphics 620 devem ser entendidos como memória gráfica disponível/compartilhada, não necessariamente VRAM dedicada: essa GPU integrada normalmente utiliza memória do sistema. O resultado depende da GPU, memória disponível, resolução, configurações gráficas, drivers, temperatura e versão do jogo. A configuração completa do teste e evidências reproduzíveis ainda precisam ser documentadas. Não interprete esses valores como garantia de desempenho em outros equipamentos.
 
 Este repositório está em estágio experimental. A informação acima descreve o teste relatado e não significa que exista aqui um launcher, otimizador ou implementação que contorne requisitos, DRM ou anti-cheat do jogo.
 
@@ -17,8 +17,9 @@ Este repositório está em estágio experimental. A informação acima descreve 
 | Notebook | Acer Aspire 3 |
 | Sistema operacional | Windows 11 Pro for Workstations |
 | Processador | Intel Core i3 de 8ª geração |
-| Memória | 8 GB DDR4 |
-| Gráficos | Ajustados para priorizar estabilidade; detalhes não informados |
+| Memória do sistema | 8 GB DDR4 |
+| Gráficos | Intel UHD Graphics 620 integrada; 4 GB de memória gráfica reportados/disponibilizados, provavelmente compartilhados com a RAM |
+| Gráficos do jogo | Ajustados para priorizar estabilidade; detalhes não informados |
 | Desempenho relatado | 15–20 FPS |
 
 ## Como contribuir com os resultados
