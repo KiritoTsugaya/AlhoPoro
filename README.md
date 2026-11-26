@@ -1,34 +1,30 @@
 # AlhoPoro
 
-Projeto experimental inspirado no [`Marvisak/VIctory`](https://github.com/Marvisak/VIctory), com foco em execução eficiente e estabilidade de desempenho em diferentes configurações de computador.
+Projeto experimental inspirado no [`Marvisak/VIctory`](https://github.com/Marvisak/VIctory), com foco em avaliar execução, compatibilidade e desempenho de jogos em PCs e notebooks.
 
-## Compatibilidade e desempenho
+## Estado e desempenho relatado
 
-Os testes indicam suporte a máquinas equipadas com processadores Intel e AMD, com Windows 11 Pro.
+Segundo informações fornecidas pelo responsável pelo projeto, o AlhoPoro está funcionando em **Windows 11 Pro for Workstations** e foi testado em um **Acer Aspire 3 com Intel Core i3 de 8ª geração e 8 GB de memória DDR4**. Nesse equipamento, o desempenho relatado é de **15 a 20 FPS**, com os gráficos ajustados para priorizar estabilidade.
 
-| Configuração | Desempenho esperado |
+> **Transparência:** esses números são relatos do responsável pelo projeto e não foram verificados de forma independente neste repositório. O resultado depende da GPU (integrada ou dedicada), resolução, configurações gráficas, drivers, temperatura e versão do jogo. A configuração completa do teste e evidências reproduzíveis ainda precisam ser documentadas. Não interprete esses valores como garantia de desempenho em outros equipamentos.
+
+Este repositório está em estágio experimental. A informação acima descreve o teste relatado e não significa que exista aqui um launcher, otimizador ou implementação que contorne requisitos, DRM ou anti-cheat do jogo.
+
+## Configuração testada (relato)
+
+| Item | Detalhe |
 |---|---|
-| Máquinas Intel e AMD compatíveis | Aproximadamente 45 FPS |
-| Intel Core i3 de 8ª geração, 8 GB de DDR4 | Em torno de 23 FPS, com leves quedas ocasionais |
+| Notebook | Acer Aspire 3 |
+| Sistema operacional | Windows 11 Pro for Workstations |
+| Processador | Intel Core i3 de 8ª geração |
+| Memória | 8 GB DDR4 |
+| Gráficos | Ajustados para priorizar estabilidade; detalhes não informados |
+| Desempenho relatado | 15–20 FPS |
 
-> **Nota:** Os valores acima são baseados em testes realizados pelo projeto. O FPS pode variar conforme CPU, GPU, drivers, temperatura, resolução, configurações gráficas e carga do sistema. Os testes têm como objetivo manter uma execução estável em todas as configurações atendidas.
+## Como contribuir com os resultados
 
-## Características
+Para tornar os testes reproduzíveis, inclua CPU e GPU exatas, quantidade e configuração da RAM, versão/build do Windows e do jogo, resolução, preset gráfico, drivers, temperaturas, ferramenta de medição, duração do teste e FPS médio/mínimo. Identifique claramente resultados medidos, estimativas e relatos.
 
-- Compatibilidade com Windows 11 Pro
-- Suporte planejado para processadores Intel e AMD
-- Prioridade à estabilidade de execução
-- Desempenho de aproximadamente 45 FPS em máquinas compatíveis
-- Execução estável em hardware mais modesto, incluindo Intel Core i3 de 8ª geração
-- Uso de 8 GB de memória DDR4 suportado
+## Referência
 
-## Requisitos mínimos indicativos
-
-- Sistema: Windows 11 Pro
-- CPU: Intel Core i3 de 8ª geração ou equivalente AMD
-- Memória: 8 GB DDR4
-- GPU compatível com a aplicação
-
-## Transparência sobre os resultados
-
-Os valores de FPS podem variar entre máquinas. Sempre registre o hardware, drivers e configuração gráfica usados em novos testes para manter os dados comparáveis.
+A ideia foi inspirada pelo projeto [Marvisak/VIctory](https://github.com/Marvisak/VIctory). O AlhoPoro é independente e não é afiliado nem endossado pela Rockstar Games ou pelos autores do projeto de referência.
